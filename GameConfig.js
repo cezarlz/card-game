@@ -1,0 +1,7 @@
+module.exports = {
+  MAX_LIFE: 2000,
+  INITIAL_ELIXIR: 5,
+  MAX_ELIXIR: 10,
+  MAX_CARDS_ON_FIELD: 5,
+  INITIAL_CARDS_ON_HAND: 5
+};

@@ -1,0 +1,23 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "description": "A fun card game",
+  "main": "index.js",
+  "author": "Cezar Luiz <cezarluiz.c@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "socket.io": "^1.5.1"
+  },
+  "scripts": {
+    "devServer": "nodemon server.js",
+    "devClient": "webpack-dev-server --config=webpack.dev.js"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.0.1",
+    "express": "^4.14.0",
+    "nodemon": "^1.11.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

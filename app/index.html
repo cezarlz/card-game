@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <style>
+    .hidden {display: none}
+  </style>
+</head>
+<body>
+
+  <form id="login-form">
+    <input type="text" id="nickname" placeholder="Nickname">
+    <input type="text" id="password" placeholder="Password" value="sdaddasd">
+    <input type="text" id="first-name" placeholder="First name" value="sdaddasd">
+    <input type="text" id="last-name" placeholder="Last name" value="sdaddasd">
+
+    <button id="login-form">Enter!</button>
+  </form>
+
+  <div id="play" class="hidden">
+    <button>Play!</button>
+  </div>
+
+  <div id="waiting-oponent" class="hidden">
+    <p>Waiting a oponent!</p>
+    <button id="cancel">Cancel</button>
+  </div>
+
+  <div id="field" class="hidden">
+    <div id="cards"></div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
